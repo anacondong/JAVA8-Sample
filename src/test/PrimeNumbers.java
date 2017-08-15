@@ -18,8 +18,10 @@ class PrimeNumbers {
                         
                          if(i % j == 0){
                                  isPrime = false;
+//                                 System.out.print("i >>> "+i + " j >>>"+j + " isPrime >>> "+isPrime+" \n");
                                  break;
                          }
+                          
                  }
                  // print the number
                  if(isPrime)
